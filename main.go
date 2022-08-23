@@ -22,8 +22,6 @@ import (
 
 	"github.com/aliyun/aliyun-oss-go-sdk/oss"
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/robfig/cron/v3"
-	"github.com/tencentyun/cos-go-sdk-v5"
 )
 
 var (
@@ -38,20 +36,20 @@ var (
 	//DB
 	host     = "localhost"
 	user     = "root"
-	database = "VideobackendDB"
-	password = "x408skqp78muxobn"
+	database = "database"
+	password = "password"
 
 	//騰訊雲
-	cosName   = "yellow-video-1302186848"
-	cosRegion = "ap-beijing"
-	secretId  = "AKIDLXZNLWWYNjHbw8G1jG7IF0bIvZ1Gd0dU"
-	secretKey = "nKaaMsFTw97rKejYGI4pKX2HF7D4ex2a"
+	cosName   = "cosName"
+	cosRegion = "cosRegion"
+	secretId  = "secretId"
+	secretKey = "secretKey"
 
 	//阿里雲
-	endPoint        = "oss-cn-beijing.aliyuncs.com"
-	accessKeyId     = "LTAI4GHtMFZxr3vY5CVENR5r"
-	accessKeySecret = "7knd6wtds5UYdJsqsI2CbqHXF39otZ"
-	myBucket        = "yellow-video"
+	endPoint        = "endPoint"
+	accessKeyId     = "accessKeyId"
+	accessKeySecret = "accessKeySecret"
+	myBucket        = "myBucket"
 )
 
 func main() {
