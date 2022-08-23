@@ -1,0 +1,20 @@
+[TransferFile]
+VideoPath = /Users/kiva_yang/Desktop/Sites/Go/src/video2m3u8/yellow-video/videobackend-api/videos/prod/prod-102480-20210426055811.mp4
+ImagePath = 
+LogoPath =
+Coss = [
+            {
+                "cosClass":"TS","cosName":"test-1302186848",
+                "cosSecretID":"AKIDLXZNLWWYNjHbw8G1jG7IF0bIvZ1Gd0dU",
+                "cosSecretKey":"nKaaMsFTw97rKejYGI4pKX2HF7D4ex2a",
+                "cosRegion":"ap-beijing","cosScheme":"https",
+                "cosSpeedEndpoint":"cos.accelerate.myqcloud.com",
+                "cosEndpoint":"cos.ap-beijing.myqcloud.com"
+            },
+            {
+                "cosClass":"ALI","CosName":"testcos-20210115",
+                "cosSecretID":"LTAI4GHtMFZxr3vY5CVENR5r",
+                "cosSecretKey":"7knd6wtds5UYdJsqsI2CbqHXF39otZ",
+                "cosEndpoint":"cos.ap-beijing.myqcloud.com"
+            }
+        ]
